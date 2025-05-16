@@ -27,11 +27,11 @@
  }
 
  aside {
-   width: 20cm;
-   margin: 1em;
-   border: 1px solid rgb (0 0 0 / 0.2);
+   width: 20rem;
+   margin: 1rem;
+   border: 1px solid rgba (0 0 0 / 0.2);
    /* 1 */
-   padding: 1em;
+   padding: 1rem;
    background-color: #eee;
    color: #333;
    text-align: center;
@@ -53,5 +53,6 @@
 
  footer {
    margin-top: 15px;
-   border-top: 1px solid #000 text-align: center;
+   border-top: 1px solid #000;
+   text-align: center;
  }
