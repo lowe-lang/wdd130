@@ -1,5 +1,5 @@
  html {
-   background-color: blue;
+   background-color: green;
    font-size: 20px;
  }
 
@@ -51,10 +51,9 @@
    margin: 1em;
    border: 1px solid rgba(0,0,0/0.2);
    padding: 1em;
-   background-color: #eee;
-   color: #333;
-   text-align: center;
- }
+   background-color: #333;
+   color: #eee;
+   text-align: center;}
 
  aside img {
    width: 200px;
