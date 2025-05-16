@@ -13,8 +13,21 @@
    margin-left: 20px;
  }
 
+ nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+ }
+
+ h1 {
+  color: steelblue
+ }
+
+ main {
+  max-width: 840px;
+ }
+ 
  main img {
-   max-width: 840px;
    width: 150px;
    height: auto;
    border: 1px solid steelblue;
@@ -27,11 +40,10 @@
  }
 
  aside {
-   width: 20rem;
-   margin: 1rem;
-   border: 1px solid rgba (0 0 0 / 0.2);
-   /* 1 */
-   padding: 1rem;
+   width: 20em;
+   margin: 1em;
+   border: 1px solid rgba (0,0,0/0.2);
+   padding: 1em;
    background-color: #eee;
    color: #333;
    text-align: center;
