@@ -13,6 +13,13 @@
    margin-left: 20px;
  }
 
+ nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+ }
+
  nav a {
     color: white;
     padding: 10px;
@@ -26,7 +33,7 @@
  main {
   max-width: 840px;
  }
- 
+
  main img {
    width: 150px;
    height: auto;
