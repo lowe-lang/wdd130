@@ -1,7 +1,95 @@
  html {
-   background-color: green;
+  background: green;
    font-size: 20px;
  }
+
+ body {
+   font-family: sans-serif;
+ }
+
+ span {
+   background-color: black;
+ }
+
+ strong {
+   color: rebeccapurple
+ }
+
+ em {
+   color: rebeccapurple;
+ }
+
+ body {
+   font-family: sans-serif;
+ }
+
+ .notebox {
+   border: 4px solid #666;
+   padding: 0.5em;
+   margin: 0.5em;
+ }
+
+ .notebox.warning {
+   border-color: orange;
+   font-weight: bold;
+ }
+
+ .notebox.danger {
+   border-color: red;
+   font-weight: bold;
+ }
+
+ #one {
+   background-color: yellow;
+ }
+
+ h1#heading {
+   color: rebeccapurple;
+ }
+
+ * {
+   margin: 0;
+ }
+
+ section {
+   box-sizing: border-box;
+   border: 1px solid blue;
+   width: 100%;
+   float: left;
+ }
+
+ div {
+   margin: 5px;
+   width: 50px;
+   height: 150px;
+ }
+
+ .notebox {
+   float: right;
+   background: pink;
+ }
+
+ .notebox.warning {
+   float: right;
+   background: cyan;
+ }
+
+ .notebox.danger {
+   float: left;
+   background: yellow;
+ }
+
+ .danger {
+   float: left;
+   background: orange;  }
+
+
+
+ {
+   background: red;
+ }
+
+
 
  ul {
    background: black;
@@ -28,6 +116,11 @@
 
  h1 {
   color: steelblue
+  
+ }
+
+ p {
+  color: white;
  }
 
  main {
@@ -74,3 +167,10 @@
    border-top: 1px solid #000;
    text-align: center;
  }
+
+ #highlight {
+  text-decoration: underline;
+  background-color: lightyellow;
+  padding: 1rem;
+ }
+
