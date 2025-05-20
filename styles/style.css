@@ -1,14 +1,20 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
  html {
   background: green;
    font-size: 20px;
+    
  }
 
- body {
+ body {  
    font-family: sans-serif;
  }
 
  span {
-   background-color: black;
+   background-color: brown
  }
 
  strong {
@@ -16,34 +22,6 @@
  }
 
  em {
-   color: rebeccapurple;
- }
-
- body {
-   font-family: sans-serif;
- }
-
- .notebox {
-   border: 4px solid #666;
-   padding: 0.5em;
-   margin: 0.5em;
- }
-
- .notebox.warning {
-   border-color: orange;
-   font-weight: bold;
- }
-
- .notebox.danger {
-   border-color: red;
-   font-weight: bold;
- }
-
- #one {
-   background-color: yellow;
- }
-
- h1#heading {
    color: rebeccapurple;
  }
 
@@ -58,39 +36,7 @@
    float: left;
  }
 
- div {
-   margin: 5px;
-   width: 50px;
-   height: 150px;
- }
-
- .notebox {
-   float: right;
-   background: pink;
- }
-
- .notebox.warning {
-   float: right;
-   background: cyan;
- }
-
- .notebox.danger {
-   float: left;
-   background: yellow;
- }
-
- .danger {
-   float: left;
-   background: orange;  }
-
-
-
- {
-   background: red;
- }
-
-
-
+ 
  ul {
    background: black;
    padding: 10px;
@@ -102,7 +48,7 @@
  }
 
  nav {
-    background-color: #333;
+    background-color: green ;
     color: white;
     padding: 10px;
     text-align: center;
@@ -115,12 +61,13 @@
  }
 
  h1 {
-  color: steelblue
+  color: white;
+  padding: 5rem;
   
  }
 
  p {
-  color: white;
+  color: black;
  }
 
  main {
@@ -133,30 +80,30 @@
    border: 1px solid steelblue;
    padding: 2px;
    box-shadow: 0 0 30px gray;
+   float: right;
+  margin: 0 0 1rem 1rem;
  }
 
  p {
-   padding: 0;
+  margin: 1rem;
  }
 
  aside {
    width: 20em;
-   margin: 1em;
-   border: 1px solid rgba(0,0,0/0.2);
-   padding: 1em;
-   background-color: #333;
-   color: #eee;
-   text-align: center;}
+   text-align: center;
+   position: relative;
+  }
 
  aside img {
    width: 200px;
    height: auto;
  }
 
- main img {
-   width: 150px;
-   height: auto;
- }
+  aside h2 {
+    position: absolute;
+    top: 40px;
+    left: 93px;
+  }
 
  p {
    padding: 0;
@@ -173,4 +120,22 @@
   background-color: lightyellow;
   padding: 1rem;
  }
+ .highlight {
+  background-color: lightyellow;
+  padding: 1rem;
+ }
+/* Classn selector */
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 /10%);
+  padding: 1rem;
+  background-color: aqua;
+  color: #000;
+ }
+
+ .indent {
+  margin-left: 2rem;
+ }
+
 
