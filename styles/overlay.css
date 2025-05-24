@@ -5,8 +5,9 @@
     --accent1-color: #162521;
     --accent2-color: #3c474b;
     --heading-background-color: #000;
-    --heading-font: 'Arial', sans-serif;
-    --text-font: "Roboto", serif;
+    --heading-font: 'Rock-salt', sans-serif;
+    --text-font: 'Roboto', serif;
+    --font-family: 'Rock-Salt', sans-serif;
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.1)
 }
@@ -43,16 +44,18 @@ aside {
 ​ main {
     max-width: 800px;
     margin: 2rem auto;
-    font-family: Roboto, Arial, sans-serif;
+    font-family: 'Rock-salt', sans-serif;
 }
 p {
     color: var(--accent1-color);
 }
 
-​ h1 {
+​h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rock-salt',sans-serif;
     text-align: center;
     font-size: 1.5rem;
     text-shadow: 3px 3px 5px #777;
+    position: absolute;
 }
 
 ​ .herodiv {
@@ -82,6 +85,7 @@ p {
         text-shadow: 0 0 15px #333;
         border-bottom: 1px solid #555;
         margin-bottom: 0.3rem;
+        position: absolute;
     }
     
     footer {
