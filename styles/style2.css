@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: gray;
+  font-size: 20px;
+
+}
+
+body {
+  font-family: serif;
+}
+
+span {
+  background-color: brown
+}
+
+strong {
+  color: rebeccapurple
+}
+
+em {
+  color: rebeccapurple;
+}
+
+* {
+  margin: 0;
+}
+
+
+
+
+ul {
+  background: whitesmoke;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+li {
+  margin-left: 10px;
+}
+
+nav {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  padding: 10px;
+  display: block;
+}
+
+h1 {
+  color: black;
+  padding: 1rem;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+
+}
+
+p {
+  color: black;
+}
+
+main {
+  max-width: 840px;
+}
+
+main img {
+  width: 650px;
+  height: auto;
+  border: 1px solid gray;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+  float: right;
+  margin: 0 0 1rem 1rem;
+}
+
+p {
+  margin: 1rem;
+}
+
+aside {
+  width: 20em;
+  text-align: center;
+  position: relative;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+
+}
+
+aside h2 {
+  position: absolute;
+  top: 40px;
+  left: 93px;
+}
+
+section {
+  width: 20em;
+  text-align: center;
+  position: relative;
+}
+
+section img {
+  width: 200px;
+  height: auto;
+
+}
+
+section h2 {
+  position: absolute;
+  top: 40px;
+  left: 93px;
+}
+
+p {
+  padding: 0;
+}
+
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
+}
+
+#highlight {
+  text-decoration: underline;
+  background-color: lightyellow;
+  padding: 1rem;
+}
+
+.highlight {
+  background-color: lightyellow;
+  padding: 1rem;
+}
+
+/* Class selector */
+.box {
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 /10%);
+  padding: 0rem;
+  background-color: black;
+  color: #000;
+}
+
+.indent {
+  margin-left: 2rem;
+}

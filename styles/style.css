@@ -4,13 +4,13 @@
   box-sizing: border-box;
  }
  html {
-  background: green;
+  background: gray;
    font-size: 20px;
     
  }
 
  body {  
-   font-family: sans-serif;
+   font-family: serif;
  }
 
  span {
@@ -29,55 +29,54 @@
    margin: 0;
  }
 
- section {
-   box-sizing: border-box;
-   border: 1px solid blue;
-   width: 100%;
-   float: left;
- }
+
 
  
  ul {
-   background: black;
-   padding: 10px;
+   background: whitesmoke;
+   padding: 20px;
    border: 1px solid black;
  }
 
  li {
-   margin-left: 20px;
+   margin-left: 10px;
  }
 
  nav {
-    background-color: green ;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 10px;
     text-align: center;
  }
 
  nav a {
-    color: white;
+    color: black;
     padding: 10px;
     display: block;
  }
 
  h1 {
-  color: white;
-  padding: 5rem;
-  
+  color: black;
+  padding: 1rem;
  }
 
- p {
-  color: black;
+ h2 {
+  color: white;
+ }
+
+ h3 {
+  color: white;
  }
 
  main {
   max-width: 840px;
+  position: relative;
  }
 
  main img {
-   width: 150px;
+   width: 650px;
    height: auto;
-   border: 1px solid steelblue;
+   border: 1px solid gray;
    padding: 2px;
    box-shadow: 0 0 30px gray;
    float: right;
@@ -90,21 +89,47 @@
 
  aside {
    width: 20em;
-   text-align: center;
-   position: relative;
+   top: 50px;
+   left: 15px;
+   text-align: right;
+   position: absolute;}
+  p {
+      color: white;
+    
   }
 
  aside img {
-   width: 200px;
+   width: 100px;
    height: auto;
- }
+   float: left;}
 
-  aside h2 {
-    position: absolute;
-    top: 40px;
-    left: 93px;
-  }
+aside h2 {
+  top: 40px;
+  left: 93px;
+  position: absolute;
+}
 
+
+
+
+    section {
+      width: 20em;
+      text-align: center;
+      
+    }
+  
+    section img {
+      width: 200px;
+      height: auto;
+  
+    }
+  
+    section h2 {
+      top: 40px;
+      left: 93px;
+      color: black;
+    }
+      
  p {
    padding: 0;
  }
@@ -128,8 +153,8 @@
 .box {
   margin: 1rem;
   border: 1px solid rgb(0 0 0 /10%);
-  padding: 1rem;
-  background-color: aqua;
+  padding: 0rem;
+  background-color:  black;
   color: #000;
  }
 
