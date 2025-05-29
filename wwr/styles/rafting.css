@@ -4,12 +4,15 @@
     --accent1-color: #bfd7b5;
     --accent2-color: #3c474b;
     --heading-font: "Merriweather", serif;
-    --body-font: "Inter", sans-serif;
-
+    --body-font: "Inter", sans-serif
 }
+
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
 }
 
 *{
@@ -27,6 +30,13 @@ body {
 header, main, footer {
     max-width: 840px;
     margin: 0 auto;
+    padding: 1}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 h1, h2 {
@@ -76,7 +86,8 @@ h1 {
 }
 
 ​.stats {
-    position: absolute;
+    display: flex;
+
     bottom: 25px;
     left: 15px;
     background: radial-gradient(#eee, #323A06);
@@ -84,4 +95,37 @@ h1 {
     padding: 0.65rem;
     box-shadow: 0 0 30px #111;
     opacity: 0.9;
+}
+
+.stats div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stats img {}
+
+.adventure {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.adventure h2 {
+    grid-column: span 5;
+    text-align: center;
+    margin-bottom: 1rem
+}
+.adventure img {
+    width: 100%;
+    height: auto;
+}
+.adventure figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
