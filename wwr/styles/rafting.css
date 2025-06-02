@@ -9,10 +9,15 @@
 
 header {
     background-color: var(--primary-color);
-    color: var(--accent2-color);
-    display: flex;
+    color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     justify-content: space-between;
     align-self: center;
+}
+
+header a {
+    color: var(--secondary-color);
 }
 
 *{
@@ -30,7 +35,8 @@ body {
 header, main, footer {
     max-width: 840px;
     margin: 0 auto;
-    padding: 1}
+    padding: 1rem;
+}
 
 header nav {
     display: flex;
