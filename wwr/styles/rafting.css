@@ -7,8 +7,10 @@
     --body-font: "Inter", sans-serif
 }
 
+
+
 header {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--secondary-color);
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -17,7 +19,9 @@ header {
 }
 
 header a {
-    color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem;
 }
 
 *{
@@ -52,6 +56,7 @@ h1, h2 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+    color: wheat;
 }
 
 .socialmedia a {
@@ -79,6 +84,7 @@ h1 {
     color: #fff;
 }
 
+
 .hero article {
     position: absolute;
     top: 100px;
@@ -94,7 +100,7 @@ h1 {
 ​.stats {
     display: flex;
 
-    bottom: 25px;
+    bottom: 25pax;
     left: 15px;
     background: radial-gradient(#eee, #323A06);
     border: 1px solid #000;
@@ -133,4 +139,49 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+form {
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+legend {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
 }
