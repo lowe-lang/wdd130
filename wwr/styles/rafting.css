@@ -100,7 +100,7 @@ h1 {
 ​.stats {
     display: flex;
 
-    bottom: 25pax;
+    bottom: 25px;
     left: 15px;
     background: radial-gradient(#eee, #323A06);
     border: 1px solid #000;
