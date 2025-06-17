@@ -69,15 +69,9 @@ aside {
 }
 
 
-aside.box{
-    background-color: black;
-    position: center;
-}
 
-aside img{
-    background-color: black;
-    position: center;
-}
+
+
 header nav {
     display: flex;
     justify-content: center;
@@ -197,6 +191,12 @@ h1 {
     font-size: 1rem;
     color: black;
    
+}
+
+aside.box {
+    background-color: #000000;
+    margin-top: 2rem;
+    padding: 1rem;
 }
 
 footer {
